@@ -1,0 +1,77 @@
+.template-with-arrow {
+    color: rgb(119, 58, 224);
+    font-weight: bold;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.arrow-image {
+    width: 30px;
+    height: 20px;
+    margin-left: 8px;
+    margin-bottom: -7px;
+    transition: 0.5s;
+}
+
+.template-with-arrow:hover .arrow-image {
+    transform: translateX(6px);
+}
+
+._2nd-page,
+._3rd-page,
+._4th-page,
+._5th-page,
+._6th-page {
+    display: flex;
+    padding: 0 105px;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.template-heading-1,
+.template-heading-2,
+.faq-heading {
+    margin-top: 120px;
+    text-align: center;
+}
+
+.template-1,
+._7th-page,
+._8th-page,
+._9th-page,
+._10th-page,
+.template-2 {
+    display: flex;
+    padding: 0 105px;
+    margin-top: 120px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.feedback {
+    padding: 0 105px;
+    margin-top: 120px;
+    align-items: center;
+}
+
+.questions {
+    margin: 60px 0 0 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 0 105px;
+    column-gap: 55px;
+}
+
+.final-page {
+    margin-top: 40px;
+    background-image: url("assets/final_page/background.webp");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    background-position: center center;
+}
+
+footer {
+    margin-top: 100px;
+    padding: 0 130px 80px 130px;
+}
